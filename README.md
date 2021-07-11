@@ -1,1 +1,4 @@
-# automatic-refollow
+# twitter_refollow
+Herokuの各種キー設定にて対応するAPIキーの設定が必須
+現仕様では募集ツイートとフォロバのみ対応
+1日2回のツイート、tosの為TLには流れません
