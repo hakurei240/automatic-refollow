@@ -35,7 +35,7 @@ def bot_tweet():
     auth.set_access_token(access_token_key,access_token_secret)
     api = tweepy.API(auth)
 
-    tweeter = "@tos 自動で勝手にフォロバします、よかったら気軽にポチッとしてフォロバGet! \n趣味雑多垢なのでミュート推奨 \n \nふぁぼ、RTだけではフォロバできませんっ！ごめんなさいっ\n \n#フォロバ100 \n#相互フォロー\n#相互フォロー100 \n#相互支援 \n#フォローした人全員フォロー \n#らむくんは神絵師だぁぁぁぁぁぁぁぁぁ"+day
+    tweeter = "@tos \n#フォロバ100 \n#相互フォロー\n#相互フォロー100 \n#相互支援 \n#フォローした人全員フォロー \n#らむくんは神絵師だぁぁぁぁぁぁぁぁぁ"+day
     api.update_status(tweeter)
     
             
